@@ -7,8 +7,8 @@ import {
   Toolbar,
   Typography,
   // Typography,
-  useMediaQuery,
-  useTheme,
+  // useMediaQuery,
+  // useTheme,
 } from "@mui/material";
 import Logo from "./shared/Logo";
 // import { Links } from "./drawer/Links";
@@ -16,8 +16,8 @@ import Logo from "./shared/Logo";
 // import NavigationLink from "./shared/NavigationLink";
 
 const Header = () => {
-    const theme = useTheme();
-  const isMatch = useMediaQuery(theme.breakpoints.down("md"));
+    // const theme = useTheme();
+  // const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <AppBar
       sx={{ bgcolor: "black", position: "static", boxShadow: "none" }}
